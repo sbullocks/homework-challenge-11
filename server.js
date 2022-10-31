@@ -1,5 +1,6 @@
 // Setup app to listen for port 3001.
 // Package(s) needed for this application
+// Dynamic web port. If there is a dynamic port available, ||or otherwise use port 3001.
 const PORT = process.env.PORT || 3001;
 const express = require('express');
 const app = express();
@@ -25,5 +26,3 @@ app.use('/', htmlRoutes);
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
-
-
