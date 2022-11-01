@@ -1,0 +1,4 @@
+must fix POST method.
+must fix uuid so each notes gets a unique ID.
+must fix db.json to save as seperate arrays.
+try to fix DELETE method.

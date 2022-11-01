@@ -38,4 +38,4 @@
   My GitHub username is: sbullocks
 
   ## Email
-  You can contact me at my email: sbullocks@gmail.com
+  You can email me at sbullocks@gmail.com
