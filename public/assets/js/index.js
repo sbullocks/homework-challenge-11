@@ -75,6 +75,7 @@ const handleNoteSave = () => {
     text: noteText.value,
   };
   saveNote(newNote).then(() => {
+    console.log("test note...");
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -179,6 +180,7 @@ const renderNoteList = async (notes) => {
 // Gets notes from the db and renders them to the sidebar
 // const getAndRenderNotes = () => getNotes().then(renderNoteList);
 const getAndRenderNotes = () => getNotes().then((data) => {
+  console.log(data);
 renderNoteList(data);
 });
 
